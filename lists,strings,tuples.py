@@ -5,9 +5,13 @@ s = """hello
         how are 
         you!"""
 print(s)
+print(s.count('u'))
 print(len(s))
 for i in range(48):
     print(s[i])
+
+a = "hello"
+print(a.count("l"))
 
 #Lists
 print("Let's see Lists")
