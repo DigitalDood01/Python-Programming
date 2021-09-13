@@ -12,7 +12,7 @@ def count_freq(s):
     print(d)
     return(d)
 
-# Function to find which character in the string occurs more 
+# Function to find which character in the string occurs more
 def repeat_character(dict):
     d = dict.keys()
     d = list(d)
