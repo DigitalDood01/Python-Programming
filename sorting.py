@@ -22,4 +22,17 @@ print(sorted("Roma"))
 print(sorted(l3, reverse = True))
 print(sorted(l3, reverse = False))
 
+#Optional Key parameter
+
+def absolute(x):
+    if x< 0:
+        return -x
+    else:
+        return x
+
+print(sorted(l3, key = absolute))
+print(sorted(l3, key = absolute, reverse = True))
+
+
+
 
